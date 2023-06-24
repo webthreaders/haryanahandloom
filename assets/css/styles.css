@@ -1,0 +1,235 @@
+/* styles.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Styles for Navbar */
+.navbar {
+    padding: 20px 0;
+  }
+
+  .main-logo {
+    margin: 0 0.5rem;
+    }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  /* .navbar-toggler-icon {
+    background-color: #333;
+  } */
+  
+  @media (max-width: 767px) {
+    .navbar-nav .nav-link {
+      padding: 8px 10px;
+    }
+  }
+  
+
+/* Hero Section */
+.hero {
+    padding: 8rem 0 6rem 0;
+    background-color: white;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 90%;
+  }
+  
+  /* Product Showcase */
+  .product-showcase {
+    /* padding: 80px 0; */
+    background-color: white;
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .product-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin: 1rem;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .btn-learn-more {
+    display: block;
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto 4rem auto;
+    padding: 12px 20px;
+    background-color: #f7f7f7;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn-learn-more:hover {
+    background-color: grey;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 80px 0;
+    background-color: white;
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .section-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+
+  .map-button{
+    margin: 1rem auto;
+  }
+  
+  
+  /* CSS Styles for Footer */
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  .footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .footer-text {
+    color: #666;
+  }
+  
+  .footer-contact li {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact i {
+    margin-right: 10px;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+
+.mp-prod-img{
+    width: 100%;
+    height: 19rem;
+}
+
+/* CSS Styles for Brands Section */
+.brands-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .brand-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .brand-logo {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .brand-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .brand-logo:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 767px) {
+    .brand-logo {
+      width: 100px;
+      height: 100px;
+    }
+    .hero-button{
+      display: none;
+    }
+  }
+  
+  
