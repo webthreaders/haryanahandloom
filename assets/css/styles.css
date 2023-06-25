@@ -230,6 +230,38 @@ html {
     .hero-button{
       display: none;
     }
+    .hero{
+      padding-bottom: 0px;
+    }
+    .hero-text{
+      display: none;
+    }
+    .hero-title{
+      text-align: center;
+    }
+    .btn-learn-more{
+      margin-bottom: 0;
+    }
   }
-  
+   @media screen and (max-width: 340px){
+      .main-logo{
+        display: none;
+      }
+      .navbar-brand{
+        padding-left: 15px;
+        margin-right: 0;
+      }
+   }
+   @media screen and (max-width: 426px){
+    .aboutus-img{
+      max-width: 20rem;
+    }
+    .brands-section{
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .section-text{
+      margin-top: 0
+    }
+   }
   
